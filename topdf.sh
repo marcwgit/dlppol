@@ -23,6 +23,8 @@ wkhtmltopdf "$f" "${f/html/pdf}"
 #wkhtmltopdf "$f" "$outputf1"
 #wkhtmltopdf "$f" "$i.pdf"
 done
+# lp -d Ricoh-MP-2554 -P 1-2 -o sides=two-sided-long-edge -o fit-to-page  ~/dlppol/1.pdf
+
 stringZ=abcABC123ABCabc
 #       =======	    
 
